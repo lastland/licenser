@@ -4,7 +4,8 @@ Licenser is a program inspired by [licentious][].
 But rather than building a web application associated with GitHub,
 I prefer simple command line program that does simple, stupid operations.
 
-At now, licenser is nothing more than copy some files into a directory.
+At now, licenser is nothing more than a program which copies some files
+into a directory.
 However, I would like to add some other features, 
 like adding copyright declarations, in the future.
 
