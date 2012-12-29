@@ -1,0 +1,4 @@
+GPL:
+    gpl.txt: COPYING
+LGPL:
+    lgpl.txt: COPYING.LESSER
