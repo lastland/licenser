@@ -11,7 +11,11 @@ def _d_plus_f_tuple(d, f):
     return (d, _d_plus_f(d, f))
 
 
-default_license_folder = "/usr/share/licenser/licenses"
+if getattr(sys, 'frozen', None):
+    basedir = sys._MEIPASS
+else:
+    basedir = path.dirname(path.realpath(__file__))
+default_license_folder = _d_plus_f(basedir, '.licenses')
 user_license_folder = path.expanduser("~/.licenses")
 license_index_file = "index.yaml"
 
